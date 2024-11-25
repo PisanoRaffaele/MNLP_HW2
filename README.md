@@ -44,16 +44,13 @@ To further improve robustness, I created **new adversarial training samples**:
 - Leveraged semantic annotations, including:
   - **Word Sense Disambiguation (WSD)**
   - **Semantic Role Labeling (SRL)**
-
-I ensured all modifications were **sound** (logically valid within the NLI framework) while significantly increasing their complexity.
-All the modification specified in [Report](report.pdf)
+I ensured all modifications were **sound** (logically valid within the NLI framework) while significantly increasing their complexity. All the modification specified in [Report](report.pdf)
 ---
 
 ### 4️⃣ Enhancing the Model with Semantics
 [SRL embeddings](extra.ipynb).
 To improve the model's reasoning capabilities, I extended the architecture by incorporating POS (Part-of-Speech) embeddings:
-
-POS embeddings: These embeddings represent the syntactic roles of words in a sentence, helping the model capture grammatical structure and relationships between words more effectively.
+- POS embeddings: These embeddings represent the syntactic roles of words in a sentence, helping the model capture grammatical structure and relationships between words more effectively.
 ---
 
 ### 5️⃣ Results
